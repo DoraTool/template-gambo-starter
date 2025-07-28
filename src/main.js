@@ -1,18 +1,23 @@
 import "./style.css"
 import Phaser from "phaser"
-import GameScene from "./scenes/game-scene"
+import GameScene from "./scenes/GameScene"
+import { screenSize, debugConfig, renderConfig } from "./gameConfig.json"
 
 const config = {
   type: Phaser.AUTO,
   parent: "app",
-  width: 800,
-  height: 600,
+  width: screenSize.width.value,
+  height: screenSize.height.value,
   physics: {
     default: "arcade",
     arcade: {
-      gravity: { y: 200 },
+      debug: debugConfig.debug.value,
+      debugShowBody: debugConfig.debugShowBody.value,
+      debugShowStaticBody: debugConfig.debugShowStaticBody.value,
+      debugShowVelocity: debugConfig.debugShowVelocity.value,
     },
   },
+  pixelArt: renderConfig.pixelArt.value,
   scene: [GameScene],
 }
 
