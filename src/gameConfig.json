@@ -1,12 +1,12 @@
 {
   "screenSize": {
     "width": {
-      "value": 900,
+      "value": 1152,
       "type": "number",
       "description": "屏幕宽度"
     },
     "height": {
-      "value": 600,
+      "value": 768,
       "type": "number",
       "description": "屏幕高度"
     }

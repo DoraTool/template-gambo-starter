@@ -1,13 +1,15 @@
-import "./style.css"
 import Phaser from "phaser"
 import GameScene from "./scenes/GameScene"
 import { screenSize, debugConfig, renderConfig } from "./gameConfig.json"
 
 const config = {
   type: Phaser.AUTO,
-  parent: "app",
   width: screenSize.width.value,
   height: screenSize.height.value,
+  scale: {
+    mode: Phaser.Scale.FIT,
+    autoCenter: Phaser.Scale.CENTER_BOTH,
+  },
   physics: {
     default: "arcade",
     arcade: {
