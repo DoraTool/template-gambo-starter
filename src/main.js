@@ -13,6 +13,7 @@ const config = {
   physics: {
     default: "arcade",
     arcade: {
+      fps: 120,
       debug: debugConfig.debug.value,
       debugShowBody: debugConfig.debugShowBody.value,
       debugShowStaticBody: debugConfig.debugShowStaticBody.value,
