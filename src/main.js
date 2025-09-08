@@ -1,4 +1,5 @@
 import Phaser from "phaser"
+import RexUIPlugin from 'phaser3-rex-plugins/templates/ui/ui-plugin.js'
 import { screenSize, debugConfig, renderConfig } from "./gameConfig.json"
 import { Preloader } from "./scenes/Preloader.js"
 import { TitleScreen } from "./scenes/TitleScreen.js"
