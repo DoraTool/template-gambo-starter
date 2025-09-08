@@ -25,6 +25,13 @@ const config = {
     },
   },
   pixelArt: renderConfig.pixelArt.value,
+  plugins: {
+    scene: [{
+      key: 'rexUI',
+      plugin: RexUIPlugin,
+      mapping: 'rexUI'
+    }]
+  },
 }
 
 var game = new Phaser.Game(config)
