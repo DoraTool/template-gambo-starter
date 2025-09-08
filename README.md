@@ -2,6 +2,7 @@
 Gambo 游戏基础模版
 
 ## 基础文件使用说明
+0. 所有 UI 元素必修写在独立的 UI 场景中，不要写在关卡场景里，比如玩家的得分、血量等 UI 元素
 1. 所有游戏所需的素材，必须统一在 asset-pack.json 里加载；
 2. 所有关卡的 key 需统一在 LevelManager.js 的 LEVEL_ORDER 里进行管理；
 3. 所有 number 和 boolean 类型的游戏参数都使用 gameConfig.json 进行管理和控制；
