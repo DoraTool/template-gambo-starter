@@ -14,6 +14,5 @@ export const createTrigger = (
     scene.physics.add.existing(customCollider);
     customCollider.body.setAllowGravity(false); // 不受重力影响
     customCollider.body.setImmovable(true);
-
     return customCollider;
 };

@@ -8,7 +8,7 @@ export class Preloader extends Phaser.Scene {
 		// 加载进度条
 		this.setupLoadingProgressUI(this)
 		// 按类型加载素材包
-		this.load.pack('assetPack', './src/asset-pack.json')
+		this.load.pack('assetPack', './assets/asset-pack.json')
 	}
 
 	create() {

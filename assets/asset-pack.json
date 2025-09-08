@@ -2,10 +2,16 @@
   "fonts": {
     "files": [
       {
+        "url": "assets/fronts/retro-pixel-arcade.otf.woff2",
         "type": "font",
         "key": "RetroPixel",
-        "url": "https://retro-pixel-font.takwolf.com/arcade/retro-pixel-arcade.otf.woff2?r=0.8454860941416305",
-        "format": "opentype"
+        "fontType": "opentype"
+      },
+      {
+        "url": "assets/fronts/supercell-magic_0.ttf",
+        "type": "font",
+        "key": "SupercellMagic",
+        "fontType": "opentype"
       }
     ]
   },
