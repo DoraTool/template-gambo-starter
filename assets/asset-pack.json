@@ -19,8 +19,8 @@
     "files": [
       {
         "type": "image",
-        "key": "space_background",
-        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/261/images/f1d2ae3c-cc48-4c40-b05c-4a141394a145.png"
+        "key": "space_station_background",
+        "url": "https://cdn-game-mcp-test.gambo.ai/b63002ac-6fa9-4cf3-8bbf-a91b2e8996c3/images/space_station_background.png"
       }
     ]
   },
@@ -29,7 +29,163 @@
       {
         "type": "image",
         "key": "game_title",
-        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/261/images/game_title.png"
+        "url": "https://cdn-game-mcp-test.gambo.ai/0875e6eb-5e31-4eed-982b-3da0891e2450/images/game_title.png"
+      }
+    ]
+  },
+  "character_animations": {
+    "files": [
+      {
+        "type": "image",
+        "key": "gundam_idle_frame1",
+        "url": "https://cdn-game-mcp-test.gambo.ai/477714e6-e745-47d2-9816-6f984267647d/animations/gundam_idle_anim/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "gundam_idle_frame2",
+        "url": "https://cdn-game-mcp-test.gambo.ai/8ddf75ee-20c6-4a8e-aff8-58a96830f60c/animations/gundam_idle_anim/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "gundam_walk_frame1",
+        "url": "https://cdn-game-mcp-test.gambo.ai/0c12cf7d-343f-43fe-8ab6-706ec1e168df/animations/gundam_walk_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "gundam_walk_frame2",
+        "url": "https://cdn-game-mcp-test.gambo.ai/27563ffe-99f5-4646-a26b-3c6e87af6d20/animations/gundam_walk_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "gundam_jump_frame1",
+        "url": "https://cdn-game-mcp-test.gambo.ai/052bef8c-8451-4a62-9ecc-b5b671404962/animations/gundam_jump_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "gundam_jump_frame2",
+        "url": "https://cdn-game-mcp-test.gambo.ai/6fd43998-acbb-41ee-955e-dd517c6e97c6/animations/gundam_jump_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "gundam_beam_saber_slash_frame1",
+        "url": "https://cdn-game-mcp-test.gambo.ai/cb8b9a8e-5ade-4d5b-81f6-ef7535772a5e/animations/gundam_beam_saber_slash_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "gundam_beam_saber_slash_frame2",
+        "url": "https://cdn-game-mcp-test.gambo.ai/97a76d78-e48a-4401-91d8-3163b2fe347e/animations/gundam_beam_saber_slash_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "gundam_die_frame1",
+        "url": "https://cdn-game-mcp-test.gambo.ai/4545cbca-d0ff-4fe6-9b65-8ba70ead10de/animations/gundam_die_anim/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "gundam_die_frame2",
+        "url": "https://cdn-game-mcp-test.gambo.ai/3aefe550-5867-4298-9b0b-cb53185d7435/animations/gundam_die_anim/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "zaku_idle_frame1",
+        "url": "https://cdn-game-mcp-test.gambo.ai/f581cad5-842a-4688-a66f-61dbeca02425/animations/zaku_idle_anim/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "zaku_idle_frame2",
+        "url": "https://cdn-game-mcp-test.gambo.ai/4e9e61ce-a8c7-4195-be8c-9603427f48af/animations/zaku_idle_anim/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "zaku_walk_frame1",
+        "url": "https://cdn-game-mcp-test.gambo.ai/566dbfd3-ad7b-4752-8998-f64495bf61e9/animations/zaku_walk_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "zaku_walk_frame2",
+        "url": "https://cdn-game-mcp-test.gambo.ai/0966470d-10fd-4ca4-b22c-5b672c495258/animations/zaku_walk_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "zaku_attack_frame1",
+        "url": "https://cdn-game-mcp-test.gambo.ai/b04969e3-8de7-4365-91ec-0d6e38abc4df/animations/zaku_attack_R/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "zaku_attack_frame2",
+        "url": "https://cdn-game-mcp-test.gambo.ai/f82bfcd8-a746-495a-b259-afba7f71540b/animations/zaku_attack_R/frame_2.png"
+      },
+      {
+        "type": "image",
+        "key": "zaku_die_frame1",
+        "url": "https://cdn-game-mcp-test.gambo.ai/f5f50990-d2d1-442a-a205-3237e18e3272/animations/zaku_die_anim/frame_1.png"
+      },
+      {
+        "type": "image",
+        "key": "zaku_die_frame2",
+        "url": "https://cdn-game-mcp-test.gambo.ai/75e71548-b5f0-48f8-8e56-7d643a9efb11/animations/zaku_die_anim/frame_2.png"
+      }
+    ]
+  },
+  "decorations": {
+    "files": [
+      {
+        "type": "image",
+        "key": "space_control_panels_variant_1",
+        "url": "https://cdn-game-mcp-test.gambo.ai/92df4660-c167-4d1c-b82b-e3d13815051d/images/space_control_panels/variant_1.png"
+      },
+      {
+        "type": "image",
+        "key": "space_control_panels_variant_2",
+        "url": "https://cdn-game-mcp-test.gambo.ai/e6f1f8d0-e335-4af0-925a-3176a7180a37/images/space_control_panels/variant_2.png"
+      },
+      {
+        "type": "image",
+        "key": "space_containers_variant_1",
+        "url": "https://cdn-game-mcp-test.gambo.ai/385db9e1-936e-46d6-aa61-76c431439fe7/images/space_containers/variant_1.png"
+      },
+      {
+        "type": "image",
+        "key": "space_containers_variant_2",
+        "url": "https://cdn-game-mcp-test.gambo.ai/23e4a525-bd97-4bd7-a21f-8050923cd854/images/space_containers/variant_2.png"
+      },
+      {
+        "type": "image",
+        "key": "space_pipes_variant_1",
+        "url": "https://cdn-game-mcp-test.gambo.ai/b743f007-f190-4e9f-9858-21dee24bcced/images/space_pipes/variant_1.png"
+      },
+      {
+        "type": "image",
+        "key": "space_antennas_variant_1",
+        "url": "https://cdn-game-mcp-test.gambo.ai/5930bbb7-7749-4e5d-a444-cb1334cf1f42/images/space_antennas/variant_1.png"
+      },
+      {
+        "type": "image",
+        "key": "space_energy_cores_variant_1",
+        "url": "https://cdn-game-mcp-test.gambo.ai/8e43c5e2-dc3d-4cda-9f74-c6249448db1d/images/space_energy_cores/variant_1.png"
+      }
+    ]
+  },
+  "tilesets": {
+    "files": [
+      {
+        "type": "image",
+        "key": "space_station_floor",
+        "url": "https://cdn-game-mcp-test.gambo.ai/c79f959e-6658-459d-b637-58621b4f43ed/tilesets/space_station_floor.png"
+      }
+    ]
+  },
+  "tilemaps": {
+    "files": [
+      {
+        "type": "tilemapTiledJSON",
+        "key": "level1_map",
+        "url": "https://cdn-game-mcp-test.gambo.ai/83933d36-e041-4216-8a57-705b6660834e/tile_maps/level1_map.json"
+      },
+      {
+        "type": "tilemapTiledJSON",
+        "key": "level2_map",
+        "url": "https://cdn-game-mcp-test.gambo.ai/70709d66-5584-444c-aed9-22093f35ec2d/tile_maps/level2_map.json"
       }
     ]
   },
@@ -38,7 +194,46 @@
       {
         "type": "audio",
         "key": "space_battle_8bit_theme",
-        "url": "https://specai-game-assets.s3.us-west-1.amazonaws.com/261/music/space_battle_8bit_theme.wav"
+        "url": "https://cdn-game-mcp-test.gambo.ai/249f211d-2944-4782-bfc1-24d9c9a00eec/music/space_battle_8bit_theme.wav"
+      }
+    ]
+  },
+  "sound_effects": {
+    "files": [
+      {
+        "type": "audio",
+        "key": "game_over_sound",
+        "url": "https://cdn-game-mcp-test.gambo.ai/f6eecd0b-87c3-4fe4-9002-57c6dd4622f9/sound_effects/game_over_sound.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "ui_click_sound",
+        "url": "https://cdn-game-mcp-test.gambo.ai/b372df0c-0ba0-4a8b-88d7-1f960283967e/sound_effects/ui_click_sound.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "thrusters_boost",
+        "url": "https://cdn-game-mcp-test.gambo.ai/3fe87663-82b1-46e5-80a0-998a0695415b/sound_effects/thrusters_boost.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "beam_saber_slash",
+        "url": "https://cdn-game-mcp-test.gambo.ai/c9ce32b0-fe6d-4bdc-95fd-54a208592fb7/sound_effects/beam_saber_slash.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "machine_gun_fire",
+        "url": "https://cdn-game-mcp-test.gambo.ai/efaf0c42-49dc-4cd7-9427-9aef97f661f1/sound_effects/machine_gun_fire.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "mecha_explosion",
+        "url": "https://cdn-game-mcp-test.gambo.ai/c8ead89e-9bb6-46f7-931a-2d489eb78946/sound_effects/mecha_explosion.mp3"
+      },
+      {
+        "type": "audio",
+        "key": "victory_fanfare",
+        "url": "https://cdn-game-mcp-test.gambo.ai/7fbc7159-e1ab-4472-84e6-bf8992574422/sound_effects/victory_fanfare.mp3"
       }
     ]
   },

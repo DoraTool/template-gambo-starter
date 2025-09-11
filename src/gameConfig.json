@@ -24,5 +24,76 @@
       "type": "boolean",
       "description": "是否启用像素艺术渲染"
     }
+  },
+  "playerConfig": {
+    "walkSpeed": {
+      "value": 260,
+      "type": "number",
+      "description": "Player walking speed"
+    },
+    "jumpPower": {
+      "value": 800,
+      "type": "number",
+      "description": "Player jump power"
+    },
+    "gravityY": {
+      "value": 1200,
+      "type": "number",
+      "description": "Player gravity"
+    },
+    "maxHealth": {
+      "value": 100,
+      "type": "number",
+      "description": "Player maximum health"
+    },
+    "hurtingDuration": {
+      "value": 100,
+      "type": "number",
+      "description": "Player hurt stun duration in milliseconds"
+    },
+    "invulnerableTime": {
+      "value": 2000,
+      "type": "number",
+      "description": "Player invulnerable time after being hurt in milliseconds"
+    }
+  },
+  "enemyConfig": {
+    "walkSpeed": {
+      "value": 120,
+      "type": "number",
+      "description": "Enemy walking speed"
+    },
+    "gravityY": {
+      "value": 1200,
+      "type": "number",
+      "description": "Enemy gravity"
+    },
+    "maxHealth": {
+      "value": 60,
+      "type": "number",
+      "description": "Enemy maximum health"
+    },
+    "attackCooldown": {
+      "value": 4000,
+      "type": "number",
+      "description": "Enemy attack cooldown in milliseconds"
+    },
+    "attackRange": {
+      "value": 400,
+      "type": "number",
+      "description": "Enemy attack detection range"
+    },
+    "patrolRange": {
+      "value": 200,
+      "type": "number",
+      "description": "Enemy patrol range"
+    }
+  },
+  "gameConfig": {
+    "tileSize": {
+      "value": 64,
+      "type": "number",
+      "description": "Tile size in pixels"
+    }
   }
 }

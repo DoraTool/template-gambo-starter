@@ -35,7 +35,7 @@ export class TitleScreen extends Phaser.Scene {
     const screenHeight = screenSize.height.value
 
     // 创建背景并缩放至填满屏幕
-    this.background = this.add.image(screenWidth / 2, screenHeight / 2, "space_background")
+    this.background = this.add.image(screenWidth / 2, screenHeight / 2, "space_station_background")
     
     // 计算缩放比例以填满屏幕
     const scaleX = screenWidth / this.background.width

@@ -3,6 +3,9 @@ import RexUIPlugin from 'phaser3-rex-plugins/templates/ui/ui-plugin.js'
 import { screenSize, debugConfig, renderConfig } from "./gameConfig.json"
 import { Preloader } from "./scenes/Preloader.js"
 import { TitleScreen } from "./scenes/TitleScreen.js"
+import { Level1Scene } from "./scenes/Level1Scene.js"
+import { Level2Scene } from "./scenes/Level2Scene.js"
+import { UIScene } from "./scenes/UIScene.js"
 import { VictoryUIScene } from "./scenes/VictoryUIScene.js"
 import { GameCompleteUIScene } from "./scenes/GameCompleteUIScene.js"
 import { GameOverUIScene } from "./scenes/GameOverUIScene.js"
@@ -45,10 +48,11 @@ game.scene.add("Preloader", Preloader, true)
 game.scene.add("TitleScreen", TitleScreen)
 
 // 关卡场景
-// game.scene.add("Level1Scene", Level1Scene)
-// game.scene.add("Level2Scene", Level2Scene)
+game.scene.add("Level1Scene", Level1Scene)
+game.scene.add("Level2Scene", Level2Scene)
 
 // UI 相关场景
+game.scene.add("UIScene", UIScene)
 game.scene.add("VictoryUIScene", VictoryUIScene)
 game.scene.add("GameCompleteUIScene", GameCompleteUIScene)
 game.scene.add("GameOverUIScene", GameOverUIScene)

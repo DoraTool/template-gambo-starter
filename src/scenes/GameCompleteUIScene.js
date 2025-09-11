@@ -18,6 +18,10 @@ export class GameCompleteUIScene extends Phaser.Scene {
   }
 
   create() {
+    // 播放胜利音效
+    this.victorySound = this.sound.add("victory_fanfare", { volume: 0.3 })
+    this.victorySound.play()
+
     // 创建半透明遮罩背景
     this.createOverlay()
 

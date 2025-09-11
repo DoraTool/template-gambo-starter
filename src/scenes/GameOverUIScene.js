@@ -18,6 +18,10 @@ export class GameOverUIScene extends Phaser.Scene {
   }
 
   create() {
+    // 播放游戏结束音效
+    this.gameOverSound = this.sound.add("game_over_sound", { volume: 0.3 })
+    this.gameOverSound.play()
+
     // 创建半透明遮罩背景
     this.createOverlay()
 
